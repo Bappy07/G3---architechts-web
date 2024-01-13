@@ -100,5 +100,20 @@ line-height: 26px;
     
  }
 
+ /* main styles*/
 
- 
+ main {
+    max-width:1440px;
+    margin: 0 auto;
+ }
+
+
+.teams-container{
+    display: flex;
+    align-items: center;
+}
+.teams-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
